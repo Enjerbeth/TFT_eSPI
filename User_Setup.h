@@ -1,14 +1,16 @@
 // ===========================================================
 // AERO ENGINE V3 - USER_SETUP.H (QUIRURGIC BYPASS)
 // No modificar manualmente. Los cambios seran sobrescritos.
-// Origen: HardwareConfig.h -> E32N35T_BOARD
+// Origen: HardwareConfig.h -> E32N32P_BOARD
 // ===========================================================
 #ifndef TFT_USER_SETUP_H
 #define TFT_USER_SETUP_H
 
-#define ST7796_DRIVER 1
-#define TFT_WIDTH 320
-#define TFT_HEIGHT 480
+#define ST7789_DRIVER 1
+#define TFT_WIDTH 240
+#define TFT_HEIGHT 320
+#define TFT_INVERSION_ON 1
+#define TFT_RGB_ORDER TFT_BGR
 #define USE_HSPI_PORT 1
 #define TFT_MISO 12
 #define TFT_MOSI 13
